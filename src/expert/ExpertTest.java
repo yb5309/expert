@@ -12,8 +12,14 @@ class ExpertTest {
 	}
 
 	@Test
-	void test() {
-		assertEquals(1, ExpertMain.add(1, 2));
+	void test1() {
+		assertEquals(3, ExpertMain.add(1, 2));
+		assertEquals(-1, ExpertMain.minus(1, 2));
 	}
 
+	@Test
+	void test2() {
+		assertEquals(3, ExpertMain.add(1, 2));
+		assertEquals(3, ExpertMain.minus(1, 2));
+	}
 }

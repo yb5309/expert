@@ -13,7 +13,7 @@ class ExpertTest {
 
 	@Test
 	void test() {
-		assertEquals(3, ExpertMain.add(1, 2));
+		assertEquals(1, ExpertMain.add(1, 2));
 	}
 
 }

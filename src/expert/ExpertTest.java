@@ -1,25 +1,17 @@
 package expert;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
-class ExpertTest {
+public class ExpertTest {
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-	}
-
-	@Test
-	void test1() {
+	@org.junit.Test
+	public void testAdd() {
 		assertEquals(3, ExpertMain.add(1, 2));
-		assertEquals(-1, ExpertMain.minus(1, 2));
 	}
-
-	@Test
-	void test2() {
-		assertEquals(3, ExpertMain.add(1, 2));
+	
+	@org.junit.Test
+	public void testMinus() {
 		assertEquals(3, ExpertMain.minus(1, 2));
 	}
 }

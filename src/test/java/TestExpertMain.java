@@ -1,9 +1,11 @@
-package expert;
+package test.java;
 
 import static org.junit.Assert.*;
 
+import main.java.ExpertMain;
 
-public class ExpertTest {
+
+public class TestExpertMain {
 
 	@org.junit.Test
 	public void testAdd() {
@@ -12,6 +14,6 @@ public class ExpertTest {
 	
 	@org.junit.Test
 	public void testMinus() {
-		assertEquals(3, ExpertMain.minus(1, 2));
+		assertEquals(-1, ExpertMain.minus(1, 2));
 	}
 }

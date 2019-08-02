@@ -14,6 +14,6 @@ public class TestExpertMain {
 	
 	@org.junit.Test
 	public void testMinus() {
-		assertEquals(-1, ExpertMain.minus(1, 2));
+		assertEquals(1, ExpertMain.minus(1, 2));
 	}
 }

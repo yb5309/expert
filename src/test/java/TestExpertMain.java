@@ -9,7 +9,7 @@ public class TestExpertMain {
 
 	@org.junit.Test
 	public void testAdd() {
-		assertEquals(3, ExpertMain.add(1, 2));
+		assertEquals(4, ExpertMain.add(1, 2));
 	}
 	
 	@org.junit.Test
